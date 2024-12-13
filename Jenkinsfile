@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Comentario') {
             steps {
-                echo 'Prueba de comentario con ECHO'
+                echo 'Prueba de comentario con ECHO en junkersfile desde GitHub'
             }
         }
         stage('Verificacion de WorkSpace') {
