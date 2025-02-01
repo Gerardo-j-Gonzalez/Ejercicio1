@@ -5,7 +5,7 @@ pipeline {
         stage('Get Code') {
             steps {
                 // Obtener el codigo
-				git 'https://github.com/Gerardo-j-Gonzalez/Ejercicio1'
+				git branch: 'feature_fix_coverage', url: 'https://github.com/Gerardo-j-Gonzalez/Ejercicio1'
 				bat 'dir'
 				echo WORKSPACE
             }
